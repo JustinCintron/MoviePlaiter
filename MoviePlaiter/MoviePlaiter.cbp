@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MoviePlaiter" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Utils/;View/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MoviePlaiter" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="View" />
+					<Add directory="../MoviePlaiter" />
+					<Add directory="Model" />
+					<Add directory="Utils" />
+					<Add directory="include" />
+					<Add directory="Controller" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="`fltk-config --cxxflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="`fltk-config --ldstaticflags`" />
+		</Linker>
+		<Unit filename="Controller/BuildOutput.cpp" />
+		<Unit filename="Controller/BuildOutput.h" />
+		<Unit filename="Controller/NodeManager.cpp" />
+		<Unit filename="Model/Movie.cpp" />
+		<Unit filename="Model/Movie.h" />
+		<Unit filename="Model/Node.cpp" />
+		<Unit filename="Model/Node.h" />
+		<Unit filename="Model/ReadFile.cpp" />
+		<Unit filename="Model/ReadFile.h" />
+		<Unit filename="Model/SaveFile.cpp" />
+		<Unit filename="Model/SaveFile.h" />
+		<Unit filename="Utils/Utils.cpp" />
+		<Unit filename="Utils/Utils.h" />
+		<Unit filename="View/AddMovieWindow.cpp" />
+		<Unit filename="View/AddMovieWindow.h" />
+		<Unit filename="View/DeleteMovieWindow.cpp" />
+		<Unit filename="View/DeleteMovieWindow.h" />
+		<Unit filename="View/MovieLibraryWindow.cpp" />
+		<Unit filename="View/MovieLibraryWindow.h">
+			<Option virtualFolder="View/" />
+		</Unit>
+		<Unit filename="View/OKCancelWindow.cpp" />
+		<Unit filename="View/OKCancelWindow.h" />
+		<Unit filename="include/NodeManager.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="notes.txt" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,236 @@
+# depslib dependency file v1.0
+1584564151 source:/home/dyoder/Documents/Code/MoviePlaiter/main.cpp
+	"MovieLibraryWindow.h"
+
+1584652050 /home/dyoder/Documents/Code/MoviePlaiter/View/MovieLibraryWindow.h
+	<FL/Fl.H>
+	<FL/Fl_Window.H>
+	<FL/Fl_Group.H>
+	<FL/Fl_Round_Button.H>
+	<FL/Fl_Output.H>
+	<FL/Fl_Text_Buffer.H>
+	<FL/Fl_Text_Display.H>
+	<FL/Fl_Button.H>
+	<vector>
+	<string>
+
+1584559163 source:/home/dyoder/Documents/Code/MoviePlaiter/Utils/Utils.cpp
+	"Utils.h"
+	<algorithm>
+	<sstream>
+
+1553005593 /home/dyoder/Documents/Code/MoviePlaiter/Utils/Utils.h
+	<string>
+
+1584561528 source:/home/dyoder/Documents/Code/MoviePlaiter/View/DeleteMovieWindow.cpp
+	"DeleteMovieWindow.h"
+	<iostream>
+
+1584561373 /home/dyoder/Documents/Code/MoviePlaiter/View/DeleteMovieWindow.h
+	"OKCancelWindow.h"
+	<Fl/Fl_Input.H>
+	<string>
+
+1584559154 /home/dyoder/Documents/Code/MoviePlaiter/View/OKCancelWindow.h
+	<Fl/Fl_Window.H>
+	<Fl/Fl_Button.H>
+
+1584559148 source:/home/dyoder/Documents/Code/MoviePlaiter/View/OKCancelWindow.cpp
+	"OKCancelWindow.h"
+
+1586576441 source:/home/jcintro1/Documents/Code/MoviePlaiter/Model/Movie.cpp
+	"Movie.h"
+
+1584650328 /home/jcintro1/Documents/Code/MoviePlaiter/Model/Movie.h
+	<string>
+
+1584559163 source:/home/jcintro1/Documents/Code/MoviePlaiter/Utils/Utils.cpp
+	"Utils.h"
+	<algorithm>
+	<sstream>
+
+1553005593 /home/jcintro1/Documents/Code/MoviePlaiter/Utils/Utils.h
+	<string>
+
+1584651950 source:/home/jcintro1/Documents/Code/MoviePlaiter/View/AddMovieWindow.cpp
+	"AddMovieWindow.h"
+	"Utils.h"
+	<Fl/fl_ask.H>
+	<sstream>
+
+1586581550 /home/jcintro1/Documents/Code/MoviePlaiter/View/AddMovieWindow.h
+	"OKCancelWindow.h"
+	"Movie.h"
+	<Fl/Fl_Input.H>
+
+1584559154 /home/jcintro1/Documents/Code/MoviePlaiter/View/OKCancelWindow.h
+	<Fl/Fl_Window.H>
+	<Fl/Fl_Button.H>
+
+1584561528 source:/home/jcintro1/Documents/Code/MoviePlaiter/View/DeleteMovieWindow.cpp
+	"DeleteMovieWindow.h"
+	<iostream>
+
+1584561373 /home/jcintro1/Documents/Code/MoviePlaiter/View/DeleteMovieWindow.h
+	"OKCancelWindow.h"
+	<Fl/Fl_Input.H>
+	<string>
+
+1584559148 source:/home/jcintro1/Documents/Code/MoviePlaiter/View/OKCancelWindow.cpp
+	"OKCancelWindow.h"
+
+1586573232 source:/home/jcintro1/Documents/Code/MoviePlaiter/main.cpp
+	"MovieLibraryWindow.h"
+
+1586584368 /home/jcintro1/Documents/Code/MoviePlaiter/View/MovieLibraryWindow.h
+	"Movie.h"
+	"Node.h"
+	"NodeManager.h"
+	<FL/Fl.H>
+	<FL/Fl_Window.H>
+	<FL/Fl_Group.H>
+	<FL/Fl_Round_Button.H>
+	<FL/Fl_Output.H>
+	<FL/Fl_Text_Buffer.H>
+	<FL/Fl_Text_Display.H>
+	<FL/Fl_Button.H>
+	<vector>
+	<string>
+
+1586587528 source:/home/jcintro1/Documents/Code/MoviePlaiter/View/MovieLibraryWindow.cpp
+	"MovieLibraryWindow.h"
+	"DeleteMovieWindow.h"
+	"AddMovieWindow.h"
+	<FL/fl_types.h>
+	<Fl/fl_draw.H>
+	<Fl/Fl_File_Chooser.H>
+	<iostream>
+
+1586578776 source:/home/jcintro1/Documents/Code/MoviePlaiter/Model/Node.cpp
+	"Node.h"
+
+1586577226 /home/jcintro1/Documents/Code/MoviePlaiter/Model/Node.h
+	"Movie.h"
+
+1586587365 source:/home/jcintro1/Documents/Code/MoviePlaiter/Controller/NodeManager.cpp
+	"NodeManager.h"
+	<iostream>
+
+1586587356 /home/jcintro1/Documents/Code/MoviePlaiter/include/NodeManager.h
+	"Movie.h"
+	"Node.h"
+	<string>
+	<algorithm>
+
+1586823268 source:/home/csuser/Desktop/MoviePlaiter/main.cpp
+	"MovieLibraryWindow.h"
+
+1586834442 /home/csuser/Desktop/MoviePlaiter/View/MovieLibraryWindow.h
+	"Movie.h"
+	"Node.h"
+	"ReadFile.h"
+	"SaveFile.h"
+	"NodeManager.h"
+	"BuildOutput.h"
+	<FL/Fl.H>
+	<FL/Fl_Window.H>
+	<FL/Fl_Group.H>
+	<FL/Fl_Round_Button.H>
+	<FL/Fl_Output.H>
+	<FL/Fl_Text_Buffer.H>
+	<FL/Fl_Text_Display.H>
+	<FL/Fl_Button.H>
+	<vector>
+	<string>
+	<sstream>
+
+1586832809 /home/csuser/Desktop/MoviePlaiter/Model/Movie.h
+	<string>
+
+1586833441 /home/csuser/Desktop/MoviePlaiter/Model/Node.h
+	"Movie.h"
+
+1586832168 /home/csuser/Desktop/MoviePlaiter/include/NodeManager.h
+	"Movie.h"
+	"Node.h"
+	"Utils.h"
+	<string>
+	<algorithm>
+
+1586832796 source:/home/csuser/Desktop/MoviePlaiter/Model/Movie.cpp
+	"Movie.h"
+
+1586833434 source:/home/csuser/Desktop/MoviePlaiter/Model/Node.cpp
+	"Node.h"
+
+1584559163 source:/home/csuser/Desktop/MoviePlaiter/Utils/Utils.cpp
+	"Utils.h"
+	<algorithm>
+	<sstream>
+
+1553005593 /home/csuser/Desktop/MoviePlaiter/Utils/Utils.h
+	<string>
+
+1584651950 source:/home/csuser/Desktop/MoviePlaiter/View/AddMovieWindow.cpp
+	"AddMovieWindow.h"
+	"Utils.h"
+	<Fl/fl_ask.H>
+	<sstream>
+
+1586833858 /home/csuser/Desktop/MoviePlaiter/View/AddMovieWindow.h
+	"OKCancelWindow.h"
+	"Movie.h"
+	<Fl/Fl_Input.H>
+
+1584559154 /home/csuser/Desktop/MoviePlaiter/View/OKCancelWindow.h
+	<Fl/Fl_Window.H>
+	<Fl/Fl_Button.H>
+
+1586827234 source:/home/csuser/Desktop/MoviePlaiter/View/DeleteMovieWindow.cpp
+	"DeleteMovieWindow.h"
+	<iostream>
+
+1584561373 /home/csuser/Desktop/MoviePlaiter/View/DeleteMovieWindow.h
+	"OKCancelWindow.h"
+	<Fl/Fl_Input.H>
+	<string>
+
+1584559148 source:/home/csuser/Desktop/MoviePlaiter/View/OKCancelWindow.cpp
+	"OKCancelWindow.h"
+
+1586834402 source:/home/csuser/Desktop/MoviePlaiter/View/MovieLibraryWindow.cpp
+	"MovieLibraryWindow.h"
+	"DeleteMovieWindow.h"
+	"AddMovieWindow.h"
+	<FL/fl_types.h>
+	<Fl/fl_draw.H>
+	<Fl/Fl_File_Chooser.H>
+	<iostream>
+
+1586832520 source:/home/csuser/Desktop/MoviePlaiter/Controller/NodeManager.cpp
+	"NodeManager.h"
+
+1586831776 /home/csuser/Desktop/MoviePlaiter/Controller/BuildOutput.h
+	"Movie.h"
+	"Node.h"
+	<vector>
+	<string>
+	<algorithm>
+
+1586831661 source:/home/csuser/Desktop/MoviePlaiter/Controller/BuildOutput.cpp
+	"BuildOutput.h"
+
+1586833572 /home/csuser/Desktop/MoviePlaiter/Model/ReadFile.h
+	<fstream>
+	<string>
+
+1586833665 source:/home/csuser/Desktop/MoviePlaiter/Model/ReadFile.cpp
+	"ReadFile.h"
+
+1586833801 source:/home/csuser/Desktop/MoviePlaiter/Model/SaveFile.cpp
+	"SaveFile.h"
+
+1586833808 /home/csuser/Desktop/MoviePlaiter/Model/SaveFile.h
+	<fstream>
+	<string>
+

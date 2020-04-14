@@ -1,0 +1,5 @@
+List known bugs or missing functionality here:
+
+If the user selects cancel while adding a movie or loading movies in a segmentation fault will orrur.
+
+No missing functionality or other bugs known.
